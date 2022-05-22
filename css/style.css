@@ -1,0 +1,27 @@
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+#root h1{
+    text-shadow:-1px -1px 0 #fff,
+                1px -1px 0 #fff,
+                -1px 1px 0 #fff,
+                1px 1px 0 #fff ;
+}
+
+button{
+    background-color: #fff;
+    border: 1.7px solid rebeccapurple;
+    padding: 13px 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(91, 126, 199);
+}
